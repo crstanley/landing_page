@@ -1,0 +1,202 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r_6fvW7fYkA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  @media (min-height: 350px)
+  
+a:link {
+  text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+  color:#f7e9e9;
+  cursor:pointer;
+}
+.container1{
+  display:flex;
+  position:fixed;
+  background:#63474D;
+  width:99%;
+  height:auto;
+}
+.header-title{
+  flex:1;
+  font-family: 'Fredoka One', cursive;
+  font-size:85px;
+  color:#DC9596;
+  order:2;
+}
+.header-img{
+  flex:.2;
+  order:1;
+}
+.nav-link{
+  flex:1;
+  text-align:right;
+  order:3;
+  padding:40px 20px 0px 0px;
+  font-family: 'Roboto', sans-serif;
+  color:#DC9596;
+  font-size:20px;
+}
+#logo{
+  height:100px;
+}
+.container2{
+  padding:100px 0px 0px 0px;
+  font-family: 'Roboto', sans-serif;
+  color: #63474D;
+  font-size:22px;
+  background:#f7e9e9;
+  width:100%;
+  height:100%;
+  text-align:center;
+}
+#about{
+  width:70%;
+  margin:auto;
+  height:auto;
+  padding:50px 0px 0px 0px;  
+}
+#p3{
+  font-family: 'Fredoka One', cursive;
+  font-size:40px;
+  color:#63474D;
+}
+#p4{
+  font-family: 'Fredoka One', cursive;
+  font-size:40px;
+  color:#63474D;
+}
+.vid{
+  flex:1;
+  order:1;
+
+}
+.testa{
+  display:flex;
+  order:;
+  border:5px;
+  padding:0px 10px 0px 0px;
+  font-family: 'Roboto', sans-serif;
+  color:#63474D;
+  font-size:24px;
+  justify-content:space-evenly;
+}
+#testamonial1{
+  margin:0px 0px 0px 50px;
+}
+#p2{
+  margin:0px 50px 0px 50px;
+}
+.test{
+  flex:1;
+  order:1;
+}
+.test2{
+  flex:1;
+  order:2;
+}
+.testpic{
+  display:flex;
+  justify-content:center;
+  
+}
+.pic1{
+  flex:1;
+  order:1;
+
+}
+.pic2{
+  flex:1;
+  order:2;
+  
+}
+#pic1{
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  border: 5px solid #63474D;
+}
+#pic2{
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  border: 5px solid #63474D;
+}
+.formm{
+  display:flex; 
+  flex-direction:column;
+  margin: 50px 0px 50px 0px;
+
+ 
+}
+#email{
+  width: 200px;
+  height:30px;
+  font-family: 'Roboto', sans-serif;
+  color:#DC9596;
+  font-size:15px;
+}
+.comments{
+    width: 600px;
+  height:80px;
+  font-family: 'Roboto', sans-serif;
+  color:#DC9596;
+  font-size:15px;
+  margin:15px;
+  padding:10px;
+}
+.btn{
+margin: 0px 0px 100px 0px;
+  width:100px;
+  height:30px;
+  font-family: 'Roboto', sans-serif;
+  color:#63474D;
+  font-size:15px;
+}
+</style>
+
+<div class= "container1" id="header">
+  <div class="header-title" id="title">Plumbus
+    </div>
+  <div class="header-img" id="header-img"><img id="logo"       src=http://vps510591.ovh.net/1semestre/images/logo.png>     </div>
+  <nav class="nav-link" id="nav-bar">
+      <a class="nav-link" id ="aboutbutton" href=#about>About</a>
+    <a class="nav-link"id="How-its-made" href=#p3>How It's                 Made</a>
+    <a class="nav-link" id="contact" href=#form>Contact</a>
+    </nav>
+</div>
+
+
+<div class="container2" id="body">
+  <p class="intro" id="about">Plumbuses. Everyone has a Plumbus in their home. First they take the dinglebop, and they smooth it out, with a bunch of Schleem. The Schleem is then repurposed for later batches. They take the dinglebop and push it through the Grumbo, where the Fleeb is rubbed against it. It is important that the Fleeb is rubbed, because the fleeb has all of the fleeb juice. Then a Schlommy shows up and he rubs it and spits on it. They cut the fleeb. They are several hizzards in the way. The blamphs rub against the chumbles. And the plubus and grumbo are shaved away. That leaves you with a regular old Plumbus.</p><p id="p3">How it's made!</p>
+  
+  <div class="vid" id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/r_6fvW7fYkA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><br>
+  <p id="p4"> Testimonials!</p>
+  
+    <div class="testpic"> <div class="pic1"><img id="pic1"src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCeEk4hWy_I1jqGhT6DGWfAEscymSNjlPgVQ&usqp=CAU"></div><br><div class="pic2"><img id="pic2"src="https://rickandmortyapi.com/api/character/avatar/268.jpeg"></div></div>
+  <div class="testa"><p class="test" id="testamonial1">"Just what I was looking for. It's the perfect solution for our home. Plumbus was the best investment I ever made. It's all good. "
+    - Tony J.</p><p class="test2" id="p2">
+    "Man, this thing is getting better and better as I learn more about it. My Plumbus is both attractive and highly adaptable. Buy this now. "
+    - Quigman U.</p></div>
+  
+ <div class="formm"> 
+   <form id="form" action="https://www.freecodecamp.com/email-submit" class="form">
+      <input
+             class="email"
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+     <div>
+<textarea name="comments" id="comments" class="comments">
+How has your Plumbus brightened your life?
+</textarea>
+</div>
+      <input id="submit" type="submit" value="Send" class="btn" />
+    </form>
